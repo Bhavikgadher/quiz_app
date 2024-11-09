@@ -21,14 +21,16 @@ class StartScreen extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 30),
-          const StyledText("Hello BG Fans", 28, colors: Colors.white70),
+          const StyledText("Hello BG Fans", 28,
+              colors: Colors.white70, align: TextAlign.center),
           const SizedBox(height: 30),
           OutlinedButton.icon(
             onPressed: () {
               startQuiz();
             },
             style: OutlinedButton.styleFrom(foregroundColor: Colors.white70),
-            label: const StyledText("Start Quiz", 20, colors: Colors.white70),
+            label: const StyledText("Start Quiz", 20,
+                colors: Colors.white70, align: TextAlign.center),
             icon: const Icon(Icons.arrow_right_alt),
             iconAlignment: IconAlignment.end,
           )
