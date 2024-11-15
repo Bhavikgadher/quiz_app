@@ -1,16 +1,13 @@
-# quiz_app
+# Quiz App
 
-A new Flutter project.
+Flutter Quiz App is an engaging multiple-choice quiz application built with Flutter. The app shuffles questions, tracks user performance, and provides an option to retake the quiz.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Attractive UI: Includes a blue and pink gradient background for a visually appealing interface.
+- Shuffled Questions: Questions are randomized for a unique quiz experience every time.
+- Results Screen: Displays the correct and incorrect answers using intuitive indicators.
+- Retest Feature: Users can retake the quiz after completing it.
+- Responsive Design: Works seamlessly on various screen sizes.
+- Custom Widgets: Built with reusable and maintainable widgets for better code organization.
+- State Management: Efficiently manages state using Stateful and Stateless widgets.
