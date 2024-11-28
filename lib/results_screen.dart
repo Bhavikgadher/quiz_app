@@ -5,7 +5,8 @@ import 'package:quiz_app/questions_summary/questions_summary.dart';
 import 'CustomWidget/styled_text.dart';
 
 class ResultsScreen extends StatelessWidget {
-  const ResultsScreen({super.key, required this.chosenAnswers, required this.onRestart});
+  const ResultsScreen(
+      {super.key, required this.chosenAnswers, required this.onRestart});
 
   final List<String> chosenAnswers;
   final void Function() onRestart;
@@ -17,7 +18,7 @@ class ResultsScreen extends StatelessWidget {
       summary.add({
         'question_index': i,
         'question': questions[i].questions,
-        'correct_answer': questions[i].answers[0],
+        'correct_answer': questions[i].getCorrectAnswer(),
         'user_answer': chosenAnswers[i]
       });
     }
